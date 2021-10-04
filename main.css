@@ -1,6 +1,6 @@
 html{
     height: 100%;
-    
+
 }
 
 body {
@@ -10,54 +10,41 @@ body {
    background-image: url(images/V2XQzk1-hp-pavilion-wallpaper.jpg);
    background-repeat: no-repeat;
    background-size: 2000px,500px;
-   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 
-
-
-
-.align {
-    margin-left:auto;
-    margin-right: auto;
-    width : 800px;
-   
-}
-
-header {
-    
-
-
-
-}
 img{
      padding-top: 30px;
      padding-bottom: 20px;
     padding-left: 45%;
-    padding-right: 45%; 
+    padding-right: 45%;
 
     width: 120px;
     height: 120px;
 }
 nav{
     background-color: rgba(255, 147, 47, 0.233);
-    
+
     width: 800px;
     text-align: center;
     padding-top: 14px;
     padding-bottom: 14px;
-    
+
 }
 
 main{
-   
+
     padding-top: 40px;
 
     height: 200px;
     width: 800px;
     text-align: center;
-   
- 
- 
+
+
+
 }
 footer
 {
@@ -65,7 +52,7 @@ footer
     background-color: rgba(255, 147, 47, 0.397);
     height: 120px;
     width: 800px;
-    
+
 }
 
 h1{
@@ -76,11 +63,11 @@ h1{
 }
 
 p{
-    
+
     text-align: center;
     color: white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+
 
 }
 footer p {
@@ -107,7 +94,7 @@ a {
 }
 
 .mail {
-    
+
     color: aliceblue;
     font-size: 20px;
 }
@@ -115,14 +102,16 @@ a {
 .map {
     margin-left: auto;
     margin-right: 400px;
-    width : 800px; 
+    margin-top: 30px;
+    width : 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map iframe{
+  width: 80%;
 }
 
 .center {
     width:100%;
-}
-
-.iframe{
-    display:block;
-    margin:0 auto;
 }
